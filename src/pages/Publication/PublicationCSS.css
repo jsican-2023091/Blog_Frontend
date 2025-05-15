@@ -1,0 +1,11 @@
+header {
+    background-color: #003a61;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}

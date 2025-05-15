@@ -1,0 +1,37 @@
+.card {
+  width: 18rem;          /* Igual que el inline style que tenías */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: 12px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  color: #555;
+}
+
+/* Último párrafo sin margen inferior para no generar espacio extra */
+.card-text:last-child {
+  margin-bottom: 0;
+  color: #888;
+  font-style: italic;
+}
