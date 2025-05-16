@@ -89,8 +89,43 @@ main p {
 }
 
 
+.publicationRepositoryDate a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.publicationRepositoryDate a:hover {
+  background-color: #005fa3;
+  box-shadow: 0 4px 8px rgba(0, 95, 163, 0.4);
+  text-decoration: none;
+}
 
 
+button {
+  margin-right: 8px;
+  padding: 8px 14px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
 
+button:hover {
+  background-color: #ddd;
+}
 
-
+button.active {
+  background-color: #003a61;
+  color: white;
+  border-color: #003a61;
+}

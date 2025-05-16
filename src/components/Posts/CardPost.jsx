@@ -18,7 +18,6 @@ export const CardPost = ({_id,title, description, course, publicationDate, repos
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
                 <p className="card-text">{course}</p>
-                <p className="card-text">{repository}</p>
                 <p className="card-text">{formatdate}</p>
 
                 <button onClick={handdleCommentsClick}>

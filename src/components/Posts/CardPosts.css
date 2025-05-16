@@ -1,3 +1,8 @@
+button {
+  color: #003a61;
+  background-color: #003a61;
+}
+
 .card {
   width: 18rem;          /* Igual que el inline style que tenías */
   background-color: #fff;
