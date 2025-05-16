@@ -32,7 +32,7 @@ const routes = [
         ]
     },
     {
-        path: '/home/posts/:postsId/comments',
+        path: 'home/posts/:postId/comments',
         element: <CommentPage />
     }
     
